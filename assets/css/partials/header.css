@@ -1,0 +1,51 @@
+.container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+    height: 40px;
+    padding-top: 10px;
+   
+}
+.title{
+    padding-left: 80px;
+    color: white;
+}
+.title span{
+    color: rgb(246, 151, 7);
+}
+.logo{
+ padding-right: 80px;
+}
+
+ .logo ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .logo ul li a i{
+    padding-right: 20px;
+    color: white;
+ }
+ .container-nav{
+    padding-left: 80px;
+    padding-right: 100px;
+    background-color: rgb(102, 145, 130);
+    color: white;
+     display: flex;
+    padding-top: 40px;
+    height: 100px;
+    justify-content: space-between;
+ }
+
+ .navigation ul {
+    margin-left: 30px;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+ }
+ .navigation ul li p{
+padding-left: 30px;
+ }
+ 
+ 
