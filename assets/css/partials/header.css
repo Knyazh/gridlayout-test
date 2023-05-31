@@ -47,5 +47,15 @@
  .navigation ul li p{
 padding-left: 30px;
  }
- 
+ @media (max-width: 400px){
+   .container{
+      display: none;
+   }
+   .title-edu{
+      width: 100%;
+   }
+   .navigation{
+      width: 100%;
+   }
+ }
  
