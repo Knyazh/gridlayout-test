@@ -114,7 +114,14 @@ h4{
     width: 100%;
 }
 .meeting-catgories{
-    width: 100%;
+   margin-right: 80%
+}
+.res-item{
+    display: none;
+}
+.tittle h4{
+    line-height: 25px;
+
 }
 }
     

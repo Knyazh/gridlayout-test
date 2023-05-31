@@ -44,6 +44,9 @@
     list-style-type: none;
     flex-wrap: wrap;
  }
+ .burger{
+    display: none;
+ }
  .navigation ul li p{
 padding-left: 30px;
  }
@@ -56,6 +59,22 @@ padding-left: 30px;
    }
    .navigation{
       width: 100%;
+   }
+   .container-nav{
+      height: 100px;
+   }
+   .navbar{
+      display: none;
+   }
+   .burger{
+      font-size: 25px;
+      z-index: 999;
+    display: flex;
+margin-left: 60%;    
+   
+   }
+   .container-nav{
+      justify-content: space-between;
    }
  }
  
